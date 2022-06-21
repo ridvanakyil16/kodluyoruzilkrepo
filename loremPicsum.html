@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://picsum.photos/200/300" alt="lorem picsum random img">
+
+    <img usemap="#workmap" src="https://picsum.photos/600/600" alt="lorem picsum random img">
+    
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" href="computer.html" alt="Computer">
+        <area shape="rect" coords="34,44,270,350" href="computer.html" alt="Computer">
+        <area shape="circle" coords="337,300,44" href="coffe.html" alt="Cup of coffee">
+    </map>
+
+    <img src="https://picsum.photos/200/300" onload="resimYuklendi()" title="image" alt="lorem picsum random img">
+
+    <picture>
+        <source srcset="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png" media="(min-width: 800px)">
+        
+        <img src="https://www.edenge.com.tr/slideshow/4541fitq.ys5_desktop.jpg" alt="" />
+    </picture>
+</body>
+<script>
+    function resimYuklendi(){
+        alert("Resim Yüklendi.");
+    }
+</script>
+</html>
